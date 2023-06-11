@@ -51,7 +51,7 @@ model_config = {"input_shape":input_shape,
                 "hidden_layer_1": 32,
                 "hidden_layer_2": 64,
                 "num_classes":num_classes}
-
+# xd
 model = Classifier(**model_config)
 
 build_model_and_log(model_config, model, "linear","Simple Linear Classifier")
